@@ -5,3 +5,22 @@ body{
     font-family: 'Montserrat', sans-serif;
     background: #252B42;
 }
+.middle-card-bg{
+    background-color: #23A6F0;
+}
+.card-body li{
+    list-style: none;
+    padding: 7px 0;
+    position: relative;
+}
+
+.card-body li::before{
+    content: '';
+    left: -25px;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-image: url(images/blue-tic.png);
+    background-size: contain;
+    margin-right: 35px;
+}
